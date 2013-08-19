@@ -1,0 +1,26 @@
+{
+  "locals": {
+    "url": "http://localhost:8080",
+    "name": "JSUnconf 2014",
+    "owner": "JSUnconf"
+  },
+  "plugins": [
+    "./node_modules/wintersmith-sass/",
+    "./node_modules/wintersmith-snockets/"
+  ],
+  "require": {
+    "moment": "moment",
+    "_": "lodash",
+    "typogr": "typogr"
+  },
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "paginator": {
+    "perPage": 3
+  }
+}

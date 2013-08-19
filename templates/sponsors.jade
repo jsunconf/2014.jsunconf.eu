@@ -1,0 +1,26 @@
+extends layout
+
+block prepend title
+  | #{ page.title + " - "}
+
+block content
+  .sponsors
+    .row
+      .small-12.columns
+        h1!= page.title
+        h3.subheader This Unconference wouldn't be possible without the help of these companies. 
+
+    - var sponsors = _.chain(contents.sponsors._.directories).map(function(item) {
+    -   return item.index;
+    - }).compact().sortBy(function(item) {
+    -   return item.name;
+    - }).value();
+
+    each sponsor in sponsors
+      .row.sponsors__sponsor
+        .small-12.large-5.columns.sponsors__sponsor__logo.text-center
+          img(src= sponsor.url + sponsor.metadata.logo, alt=sponsor.metadata.name)
+        .small-12.large-7.columns.sponsors__sponsor__text!= sponsor.metadata.text
+
+block sponsors
+  //- Empty

@@ -1,0 +1,16 @@
+extends layout
+
+block prepend title
+  | #{ page.title + " - "}
+
+block content
+  .row
+    .small-12.columns
+      article.article
+        header.article__header
+          h1
+            != page.title
+            | &nbsp;
+            small= moment(page.date).format('MMMM DD YYYY')
+
+        section.article__content!= typogr(page.html).typogrify()

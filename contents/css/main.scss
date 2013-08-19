@@ -1,0 +1,132 @@
+/**
+ * Colors
+ */
+$violet: #9f239d;
+$redViolet: #972372;
+$redViolet: #9c2351;
+$red: #a1222d;
+$yellow: #FCCD39;
+$text: #434343;
+$grey: #c7c7c7;
+
+/**
+ * Normalize
+ */
+@import "normalize";
+@import "foundation";
+
+/**
+ * Customize
+ */
+body {
+  background: url("/images/cream_dust.png");
+}
+
+h1, h2 {
+  margin-top: emCalc(30);
+}
+
+h2 {
+  display: inline-block;
+  margin-bottom: emCalc(20);
+  margin-top: emCalc(20);
+  padding: 0.2em 1em;
+  border-bottom: 1px solid $grey;
+}
+
+.button {
+  border-bottom-width: 0.2em;
+  &:active {
+    margin-top: 0.1em;
+  }
+  &.secondary {
+    color: $text;
+    border-bottom-color: darken($yellow, 20%);
+    &:hover, &:focus, &:active {
+      color: $text;
+      border-bottom-color: darken($yellow, 22%);
+    }
+    &:active {
+      border-bottom-width: 0.1em;
+    } 
+  }
+}
+
+.header {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  background: $violet;
+  border-bottom: emCalc(5) solid $violet;
+}
+
+.header h3 {
+  color: white;
+  margin: 0.5em 0;
+}
+
+.header__logo {
+  border: 1px solid white;
+}
+
+.ticket__action {
+  font-family: "Leckerli One", Georgia, serif;
+  font-size: 1.5em !important;
+  margin-top: 0.3em;
+  -webkit-transform:rotate(2deg);
+  -moz-transform:rotate(2deg);
+  -ms-transform:rotate(2deg);
+  -o-transform:rotate(2deg);
+  transform:rotate(2deg);
+}
+
+.menu {
+  padding: 1em 0;
+  background: $redViolet;
+  font-size: emCalc(18);
+  line-height: 1.6;
+}
+
+.menu__link {
+  color: white;
+  text-transform: uppercase;
+  margin: 0 0.2em;
+  padding: 0 0.3em;
+  border-bottom: 0.1em solid $redViolet;
+  &:hover, &:focus {
+    color: white;
+    border-bottom-color: white;
+  }
+}
+
+.intro {
+  margin: 4em 0 1em 0;
+  h1 {
+    font-weight: 300;
+  }
+}
+
+.news__article {
+  margin-bottom: 3em;
+}
+
+.sponsors__sponsor {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.footer {
+  margin-top: 3em;
+}
+
+.footer__sponsors__logo {
+  margin-top: 1em;
+  margin-top: 1em;
+}
+
+.footer__message {
+  margin-top: 3em;
+  background: $violet;
+  color: white;
+  line-height: 5.5;
+  border-top: 0.2em solid $redViolet;
+}
