@@ -23,13 +23,12 @@ body {
 }
 
 h1, h2 {
-  margin-top: emCalc(30);
+  margin-top: emCalc(10);
 }
 
 h2 {
   display: inline-block;
   margin-bottom: emCalc(20);
-  margin-top: emCalc(20);
   padding: 0.2em 1em;
   border-bottom: 1px solid $grey;
 }
@@ -53,9 +52,10 @@ h2 {
 }
 
 .header {
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
-  background: $violet;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+  background: $violet url("/images/2bw.jpg") no-repeat center center;
+  background-size: cover;
   border-bottom: emCalc(5) solid $violet;
 }
 
