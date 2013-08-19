@@ -2287,12 +2287,11 @@ body {
   background: url("/images/cream_dust.png"); }
 
 h1, h2 {
-  margin-top: 1.875em; }
+  margin-top: 0.625em; }
 
 h2 {
   display: inline-block;
   margin-bottom: 1.25em;
-  margin-top: 1.25em;
   padding: 0.2em 1em;
   border-bottom: 1px solid #c7c7c7; }
 
@@ -2310,9 +2309,10 @@ h2 {
       border-bottom-width: 0.1em; }
 
 .header {
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
-  background: #9f239d;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+  background: #9f239d url("/images/2bw.jpg") no-repeat center center;
+  background-size: cover;
   border-bottom: 0.3125em solid #9f239d; }
 
 .header h3 {
