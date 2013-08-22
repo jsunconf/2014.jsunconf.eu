@@ -54,13 +54,14 @@ h2 {
 .header {
   padding-top: 2.5em;
   padding-bottom: 2.5em;
-  background: $violet url("/images/2bw.jpg") no-repeat center center;
+  background: $violet url("/images/header.jpg") no-repeat center center;
   background-size: cover;
   border-bottom: emCalc(5) solid $violet;
 }
 
-.header h3 {
+.header__headline {
   color: white;
+  text-shadow: 0 0.1em 0.2em black;
   margin: 0.5em 0;
 }
 
@@ -125,8 +126,8 @@ h2 {
 
 .footer__message {
   margin-top: 3em;
-  background: $violet;
+  background: $redViolet;
   color: white;
   line-height: 5.5;
-  border-top: 0.2em solid $redViolet;
+  border-top: emCalc(5) solid $violet;
 }
