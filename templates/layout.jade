@@ -32,7 +32,7 @@ html(lang='en')
           .small-12.large-8.columns.text-center
             h3.header__headline
               | April 26 &amp; 27, 2014 | Hamburg
-            
+
             a.ticket__action.button.large.secondary.radius(href='#') Get your ticket
 
       nav.menu
@@ -42,29 +42,31 @@ html(lang='en')
             a.menu__link(href='/location/') Location
             a.menu__link(href='/schedule/') Schedule
             a.menu__link(href='/tickets/') Tickets
-            a.menu__link(href='/sponsors/') Sponsors
+            // a.menu__link(href='/sponsors/') Sponsors
+            a.menu__link(href='/sponsoring/') Sponsoring
             a.menu__link(href='/about/') About
-    
+
     block content
-    
+
     footer.footer
       block sponsors
-        .footer__sponsors
-          .row
-            .small-12.columns
-              h2 Sponsors
+        //
+          .footer__sponsors
+            .row
+              .small-12.columns
+                h2 Sponsors
 
-            - var sponsors = _.chain(contents.sponsors._.directories).map(function(item) {
-            -   return item.index;
-            - }).compact().sortBy(function(item) {
-            -   return item.name;
-            - }).value();
+              - var sponsors = _.chain(contents.sponsors._.directories).map(function(item) {
+              -   return item.index;
+              - }).compact().sortBy(function(item) {
+              -   return item.name;
+              - }).value();
 
-            each sponsor in sponsors
-              .small-12.large-6.columns.footer__sponsors__logo.text-center
-                a(href=sponsor.metadata.link, title=sponsor.metadata.name)
-                  img(src= sponsor.url + sponsor.metadata.logo, alt=sponsor.metadata.name)
+              each sponsor in sponsors
+                .small-12.large-6.columns.footer__sponsors__logo.text-center
+                  a(href=sponsor.metadata.link, title=sponsor.metadata.name)
+                    img(src= sponsor.url + sponsor.metadata.logo, alt=sponsor.metadata.name)
 
       .footer__message
         .row
-          .small-12.columns &copy; #{ new Date().getFullYear() } #{ locals.owner }
+          .small-12.columns made with &hearts; and node.js
