@@ -10,7 +10,7 @@ block content
         h1!= page.title
         h3.subheader This Unconference wouldn't be possible without the help of these companies. 
 
-    - var sponsors = _.chain(contents.sponsors._.directories).map(function(item) {
+    - var sponsors = _.chain(contents.sponsoring._.directories).map(function(item) {
     -   return item.index;
     - }).compact().sortBy(function(item) {
     -   return item.name;

@@ -56,7 +56,7 @@ html(lang='en')
               .small-12.columns
                 h2 Sponsors
 
-              - var sponsors = _.chain(contents.sponsors._.directories).map(function(item) {
+              - var sponsors = _.chain(contents.sponsoring._.directories).map(function(item) {
               -   return item.index;
               - }).compact().sortBy(function(item) {
               -   return item.name;
