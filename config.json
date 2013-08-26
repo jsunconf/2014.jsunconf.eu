@@ -1,8 +1,8 @@
 {
   "locals": {
     "url": "http://localhost:8080",
-    "name": "JSUnconf 2014",
-    "owner": "JSUnconf"
+    "name": "JS UnConf 2014",
+    "owner": "JS UnConf"
   },
   "plugins": [
     "./node_modules/wintersmith-sass/",
