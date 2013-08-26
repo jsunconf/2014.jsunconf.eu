@@ -29,8 +29,7 @@ h1, h2 {
 h2 {
   display: inline-block;
   margin-bottom: emCalc(20);
-  padding: 0.2em 1em;
-  border-bottom: 1px solid $grey;
+  padding: 0.2em 0em;
 }
 
 .button {
@@ -47,7 +46,7 @@ h2 {
     }
     &:active {
       border-bottom-width: 0.1em;
-    } 
+    }
   }
 }
 
