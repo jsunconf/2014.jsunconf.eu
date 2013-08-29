@@ -9,34 +9,6 @@ block content
           br
           | You decide what will happen.
 
-
-  .news
-    .row
-      .small-12.columns
-        h2 News
-    .row
-      - var articles = _.chain(contents.news._.directories).map(function(item) {
-      -   return item.index;
-      - }).compact().sortBy(function(item) {
-      -   return -item.date;
-      - }).filter(function(item, index) {
-      -   return index < 2;
-      - }).value();
-
-      each article in articles
-        article.news__article.small-12.large-centered.columns
-          h3
-            a(href=article.url)
-              = article.title
-              | &nbsp;
-              small= moment(article.date).format('MMMM DD YYYY')
-          section.news__article__content
-            !{ typogr(article.intro).typogrify() }
-
-    .row
-      .small-12.columns
-        a(href='/news/', title='News') View all news »
-
   .location
     .row
       != contents.location['index.md'].html
