@@ -9,6 +9,7 @@ block content
           br
           | You decide what will happen.
 
+
   .news
     .row
       .small-12.columns
@@ -35,3 +36,7 @@ block content
     .row
       .small-12.columns
         a(href='/news/', title='News') View all news »
+
+  .location
+    .row
+      != contents.location['index.md'].html
