@@ -12,20 +12,20 @@ rss(version='2.0',
     - }).filter(function(item, index) {
     -   return index < 10;
     - }).value();
-    
-    title= locals.name
-    atom:link(href=locals.url + '/feed.xml', rel='self', type='application/rss+xml')
-    link= locals.url
-    description= locals.description
-    pubDate= articles[0].rfc822date
-    language en
-    for article in articles
-      - var permalink = locals.url + article.url
-      item
-        title= article.title
-        link= permalink
-        pubDate= article.rfc822date
-        guid(isPermaLink='true')= permalink
-        author= article.author
-        //- passing locals.url resolves all relative urls to absolute
-        description= article.getHtml(locals.url)
+    - if (articles.length)
+        title= locals.name
+        atom:link(href=locals.url + '/feed.xml', rel='self', type='application/rss+xml')
+        link= locals.url
+        description= locals.description
+        pubDate= articles[0].rfc822date
+        language en
+        for article in articles
+          - var permalink = locals.url + article.url
+          item
+            title= article.title
+            link= permalink
+            pubDate= article.rfc822date
+            guid(isPermaLink='true')= permalink
+            author= article.author
+            //- passing locals.url resolves all relative urls to absolute
+            description= article.getHtml(locals.url)
