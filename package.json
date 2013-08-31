@@ -1,5 +1,6 @@
 {
   "name": "2014.jsunconf.eu",
+  "private": true,
   "version": "0.1.0",
   "dependencies": {
     "moment": "2.x",
