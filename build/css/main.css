@@ -1354,7 +1354,7 @@ p.lead {
 
 .subheader {
   line-height: 1.4;
-  color: #909090;
+  color: dimgrey;
   font-weight: 300;
   margin-top: 0.2em;
   margin-bottom: 0.5em; }
@@ -2292,8 +2292,7 @@ h1, h2 {
 h2 {
   display: inline-block;
   margin-bottom: 1.25em;
-  padding: 0.2em 1em;
-  border-bottom: 1px solid #c7c7c7; }
+  padding: 0.2em 0em; }
 
 .button {
   border-bottom-width: 0.2em; }
@@ -2311,12 +2310,13 @@ h2 {
 .header {
   padding-top: 2.5em;
   padding-bottom: 2.5em;
-  background: #9f239d url("/images/2bw.jpg") no-repeat center center;
+  background: #9f239d url("/images/header.jpg") no-repeat center center;
   background-size: cover;
   border-bottom: 0.3125em solid #9f239d; }
 
-.header h3 {
+.header__headline {
   color: white;
+  text-shadow: 0 0.1em 0.2em black;
   margin: 0.5em 0; }
 
 .header__logo {
@@ -2362,6 +2362,8 @@ h2 {
 
 .footer {
   margin-top: 3em; }
+  .footer a {
+    color: white; }
 
 .footer__sponsors__logo {
   margin-top: 1em;
@@ -2369,7 +2371,7 @@ h2 {
 
 .footer__message {
   margin-top: 3em;
-  background: #9f239d;
+  background: #9c2351;
   color: white;
   line-height: 5.5;
-  border-top: 0.2em solid #9c2351; }
+  border-top: 0.3125em solid #9f239d; }
