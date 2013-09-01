@@ -1,6 +1,6 @@
 # 2014.jsunconf.eu
 
-The website for the jsunconf 2014. It is developed with [Wintersmith](http://wintersmith.io).
+The website for the JS Unconf 2014. It is developed with [Wintersmith](http://wintersmith.io).
 
 ## Set up
 

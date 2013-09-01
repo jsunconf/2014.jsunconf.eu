@@ -3,4 +3,4 @@ title: About
 template: simple.jade
 ---
 
-<h3 class="subheader">JSUnconf is brought to you by:</h3>
+<h3 class="subheader">JS Unconf is brought to you by:</h3>
