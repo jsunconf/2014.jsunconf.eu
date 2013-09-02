@@ -1,8 +1,10 @@
 {
   "locals": {
-    "url": "http://localhost:8080",
+    "url": "http://2014.jsunconf.eu",
     "name": "JS Unconf 2014",
-    "owner": "JS Unconf"
+    "owner": "JS Unconf",
+    "description": "JavaScript Unconference 2014 in Hamburg. It's your conference. You decide what will happen.",
+    "keywords": "2014, javascript, unconference, conference, hamburg, javascript unconference, js, js unconf",
   },
   "plugins": [
     "./node_modules/wintersmith-sass/",
@@ -19,8 +21,5 @@
   "markdown": {
     "smartLists": true,
     "smartypants": true
-  },
-  "paginator": {
-    "perPage": 3
   }
 }

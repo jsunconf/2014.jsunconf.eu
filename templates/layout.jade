@@ -3,10 +3,21 @@ block vars
   - var bodyclass = null;
 html(lang='en')
   head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+    meta(name='viewport', content='width=device-width')
+    meta(property='og:type', content='website')
+    meta(property='og:url', content='#{locals.url}#{page.url}')
+    meta(property='og:image', content='#{locals.url}/images/logo.png')
+
     block meta
-      meta(charset='utf-8')
-      meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
-      meta(name='viewport', content='width=device-width')
+      meta(property='og:description', content=locals.description)
+      meta(name='description', content=locals.description)
+      meta(name='keywords', content=locals.keywords)
+    
+    block title
+      title= locals.name
+      meta(property='og:title', content= locals.name)
 
     link(rel='shortcut icon', href='/favicon.ico', type='image/x-icon')
     link(rel='apple-touch-icon', href='/apple-touch-icon.png')
@@ -15,9 +26,6 @@ html(lang='en')
     link(rel='apple-touch-icon', sizes='114x114', href='/apple-touch-icon-114x114.png')
     link(rel='apple-touch-icon', sizes='144x144', href='/apple-touch-icon-144x144.png')
 
-    title
-      block title
-        = locals.name
     link(rel='alternate', href='/feed.xml', type='application/rss+xml', title=locals.name)
     link(rel='stylesheet', href='//fonts.googleapis.com/css?family=Leckerli+One|Open+Sans:400,600,300')
     link(rel='stylesheet', href='/css/main.css')
