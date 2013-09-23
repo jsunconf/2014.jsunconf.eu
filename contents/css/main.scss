@@ -3,6 +3,7 @@
  */
 $violet: #92137F;
 $redViolet: #8f1332;
+$petrol: #189e73;
 $red: #a1222d;
 $yellow: #FCCD39;
 $text: #434343;
@@ -52,7 +53,7 @@ h2 {
 .header {
   padding-top: 2.5em;
   padding-bottom: 2.5em;
-  background: $violet url("/images/header.jpg") no-repeat center center;
+  background: url("/images/header.jpg") no-repeat center center;
   background-size: cover;
   border-bottom: emCalc(5) solid $violet;
 }
@@ -131,4 +132,21 @@ h2 {
   color: white;
   line-height: 5.5;
   border-top: emCalc(5) solid $violet;
+}
+
+.about__image {
+  margin: 1em 0 1em 0;
+  position: relative;
+  figcaption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0.5em 1em;
+    color: white;
+    text-shadow: 0 0.1em 0.2em black;
+    text-align: right;
+    a {
+      color: white;
+    }
+  }
 }
