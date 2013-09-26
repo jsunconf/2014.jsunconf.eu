@@ -5,6 +5,15 @@ template: simple.jade
 
 <h3 class="subheader">Are you interested in sponsoring the JavaScript Unconference? We are still looking for sponsors!</h3>
 
-Contact us: <a href="mailto:contact@jsunconf.eu">contact@jsunconf.eu</a>
+<div class="sponsoring">
+  <a href="/downloads/JSUnconfSponsoranschreibenENHH2014.pdf" onclick="_gaq.push(['_trackEvent', 'Download', 'english']);">Sponsorship Flyer (english)</a>
+  <br/>
+  <a href="/downloads/JSUnconfSponsoranschreibenDEHH2014.pdf" onclick="_gaq.push(['_trackEvent', 'Download', 'german']);">Sponsorship Flyer (german)</a>
+  <br/>
+  <div class="email">
+    <a href="mailto:contact@jsunconf.eu">contact@jsunconf.eu</a>
+  </div>
+</div>
+
 
 ![](sponsoring.jpg)
