@@ -46,4 +46,16 @@ Unconf means unconference. There is no schedule or speaker list in advance. Ever
       </figcaption>
     </figure>
   </div>
+  <div class="small-6 columns">
+    <figure class="about__image">
+      <a href="https://twitter.com/HinrichSager" target="_blank">
+        <img src="/images/hinrich.png" width="305" height="305">
+      </a>
+      <figcaption>
+        <a href="https://twitter.com/HinrichSager" target="_blank">
+          Hinrich Sager – @HinrichSager
+        </a>
+      </figcaption>
+    </figure>
+  </div>
 </div>
