@@ -16,6 +16,12 @@ $grey: #c7c7c7;
 @import "foundation";
 
 /**
+ * Icon Font
+ */
+
+ @import "fontello-embedded_plus_ie7";
+
+/**
  * Customize
  */
 body {
@@ -159,4 +165,10 @@ h2 {
 
 .email {
   padding: 0.5em 0 0.5em 0;
+}
+
+.icon-rss {
+  font-size: 45px;
+  line-height: 1.4;
+  margin-top: 0.625em;
 }

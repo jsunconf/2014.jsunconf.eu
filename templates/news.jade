@@ -7,8 +7,9 @@ block title
 block content
   .news
     .row
-      .small-12.columns
+      .small-10.columns
         h1 News
+      a.icon-rss.small-2.columns(href='/feed.xml') &nbsp;
     .row
       - var articles = _.chain(contents.news._.directories).map(function(item) {
       -   return item.index;
