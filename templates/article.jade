@@ -10,8 +10,8 @@ block content
       article.article
         header.article__header
           h1
+            small= moment(page.date).format('MMMM DD, YYYY')
+            br
             != page.title
-            | &nbsp;
-            small= moment(page.date).format('MMMM DD YYYY')
 
         section.article__content!= typogr(page.html).typogrify()

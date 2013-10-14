@@ -19,9 +19,9 @@ block content
       each article in articles
         article.news__article.small-12.large-centered.columns
           h3
+            small= moment(article.date).format('MMMM DD, YYYY')
+            br
             a(href=article.url)
               = article.title
-              | &nbsp;
-              small= moment(article.date).format('MMMM DD YYYY')
           section.news__article__content
             !{ typogr(article.intro).typogrify() }
