@@ -5,7 +5,7 @@ template: simple.jade
 
 <h3 class="subheader">What is an Unconf?</h3>
 
-Unconf means unconference. There is no schedule or speaker list in advance. Everybody can apply with a talk. Everybody can vote for talks. The most desired talks will happen.
+Unconf means unconference. There is no schedule or speaker list in advance. Everybody can apply with a talk. Everybody can vote for talks. The talks with the most upvotes will be picked.
 
 <h3 class="subheader">JS Unconf is brought to you by:</h3>
 
