@@ -46,13 +46,19 @@ html(lang='en')
       nav.menu
         .row
           .small-12.columns.text-center
-            a.menu__link(href='/news/') News
-            a.menu__link(href='/location/') Location
-            //- a.menu__link(href='/schedule/') Schedule
-            //- a.menu__link(href='/tickets/') Tickets
-            //- a.menu__link(href='/sponsors/') Sponsors
-            a.menu__link(href='/sponsoring/') Sponsoring
-            a.menu__link(href='/about/') About
+            ul
+              li
+                a.menu__link(href='/news/') News
+              li
+                a.menu__link(href='/location/') Location
+              li
+                a.menu__link(href='/sponsoring/') Sponsoring
+              li
+                a.menu__link(href='/about/') About
+
+              //.menu__link(href='/schedule/') Schedule
+              //a.menu__link(href='/tickets/') Tickets
+              //a.menu__link(href='/sponsors/') Sponsors
 
     block content
 

@@ -28,6 +28,12 @@ body {
   background: url("/images/cream_dust.png");
 }
 
+nav ul, nav li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0px;
+}
+
 h1, h2 {
   margin-top: emCalc(10);
 }
