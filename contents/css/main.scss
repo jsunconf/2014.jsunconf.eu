@@ -40,9 +40,11 @@ h1, h2 {
 
 h2 {
   display: inline-block;
-  margin-bottom: emCalc(20);
+  margin-bottom: emCalc(10);
   padding: 0.2em 0em;
+
 }
+
 
 .button {
   border-bottom-width: 0.2em;
@@ -112,7 +114,7 @@ h2 {
 
 .intro {
   margin: 4em 0 1em 0;
-  h1 {
+  h1, h2 {
     font-weight: 300;
   }
 }
