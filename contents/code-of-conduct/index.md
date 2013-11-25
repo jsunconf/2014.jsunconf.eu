@@ -16,7 +16,7 @@ code of conduct.
 
 <p>
   Robin Drexler<br/>
-  Twitter: @RobinDrexler<br/>
+  Twitter: [@RobinDrexler](https://twitter.com/RobinDrexler)<br/>
   Phone: +49 1520 9127095<br/>
 </p>
 
