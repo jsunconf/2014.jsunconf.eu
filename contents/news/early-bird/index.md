@@ -10,6 +10,6 @@ Ticket sales will be done through **[Tito](https://tito.io/jsunconf/jsunconf2014
 
 Please note that the tickets are non-returnable.
 
-Early Bird Tickets will be **42€** (34.02€ + 7.98€ VAT)
+Early Bird Tickets will be **42€** (34.02€ + VAT + Fee)
 
 There is a limit of one ticket per order.
