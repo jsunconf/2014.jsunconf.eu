@@ -65,25 +65,53 @@ html(lang='en')
 
     block content
 
+    block sponsors
+      - var sponsors = _.chain(contents.sponsoring._.directories).map(function(item) {
+      -   return item.index;
+      - }).compact().sortBy(function(item) {
+      -   return item.name;
+      - }).value();
+
+      - var goldSponsors = _.filter(sponsors, function(sponsor) {
+      -   return sponsor.metadata.type === 'gold';
+      - })
+
+      .row
+        .small-12.columns
+          .sponsor-list
+            h3.sponsor-list__title Gold Sponsors
+            each sponsor in goldSponsors
+              .small-12.columns.sponsor.text-center
+                a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
+                  img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
+
+      - var silverSponsors = _.filter(sponsors, function(sponsor) {
+      -   return sponsor.metadata.type === 'silver';
+      - })
+
+      .row
+        .small-12.columns
+          .sponsor-list
+            h3.sponsor-list__title Silver Sponsors
+            each sponsor in silverSponsors
+              .small-12.columns.sponsor.text-center
+                a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
+                  img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
+
+      - var bronzeSponsors = _.filter(sponsors, function(sponsor) {
+      -   return sponsor.metadata.type === 'bronze';
+      - })
+
+      .row
+        .small-12.columns
+          .sponsor-list
+            h3.sponsor-list__title Bronze Sponsors
+            each sponsor in bronzeSponsors
+              .small-6.large-4.columns.sponsor.text-center
+                a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
+                  img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
+
     footer.footer
-      block sponsors
-        //-
-          .footer__sponsors
-            .row
-              .small-12.columns
-                h2 Sponsors
-
-              - var sponsors = _.chain(contents.sponsoring._.directories).map(function(item) {
-              -   return item.index;
-              - }).compact().sortBy(function(item) {
-              -   return item.name;
-              - }).value();
-
-              each sponsor in sponsors
-                .small-12.large-6.columns.footer__sponsors__logo.text-center
-                  a(href=sponsor.metadata.link, title=sponsor.metadata.name)
-                    img(src= sponsor.url + sponsor.metadata.logo, alt=sponsor.metadata.name)
-
       .footer__message
         .row
           .small-0.large-4.hide-for-small.columns made with &hearts; and node.js

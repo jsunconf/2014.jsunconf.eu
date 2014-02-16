@@ -123,9 +123,24 @@ h2 {
   margin-bottom: 3em;
 }
 
-.sponsors__sponsor {
-  margin-top: 5em;
-  margin-bottom: 5em;
+.sponsor-list {
+  margin-top: 4em;
+  border-top: 1px solid $grey;
+}
+
+.sponsor-list__title {
+  font-size: 1em;
+  text-transform: uppercase;
+  color: $grey;
+}
+
+.sponsor {
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+
+.sponsor__text {
+  margin-top: 1em;
 }
 
 .footer {
