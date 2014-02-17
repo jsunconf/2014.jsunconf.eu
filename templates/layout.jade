@@ -111,6 +111,19 @@ html(lang='en')
                 a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
                   img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
 
+      - var supporters = _.filter(sponsors, function(sponsor) {
+      -   return sponsor.metadata.type === 'supporter';
+      - })
+
+      .row
+        .small-12.columns
+          .sponsor-list
+            h3.sponsor-list__title Supporters
+            each sponsor in supporters
+              .small-6.large-4.columns.sponsor.text-center
+                a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
+                  img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
+
     footer.footer
       .footer__message
         .row
