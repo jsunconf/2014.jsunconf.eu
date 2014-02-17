@@ -1,6 +1,6 @@
 ---
 title: Sponsoring
-template: simple.jade
+template: sponsoring.jade
 ---
 
 <h3 class="subheader">Are you interested in sponsoring the JavaScript Unconference? We are still looking for sponsors!</h3>
