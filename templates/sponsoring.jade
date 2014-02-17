@@ -39,7 +39,7 @@ block content
 
           - var goldSponsors = _.filter(sponsors, function(sponsor) {
           -   return sponsor.metadata.type === 'gold';
-          - })
+          - });
 
           each sponsor in goldSponsors
             .small-12.columns.sponsor
@@ -60,7 +60,7 @@ block content
 
           - var silverSponsors = _.filter(sponsors, function(sponsor) {
           -   return sponsor.metadata.type === 'silver';
-          - })
+          - });
 
           each sponsor in silverSponsors
             .small-12.columns.sponsor
@@ -81,7 +81,7 @@ block content
 
           - var bronzeSponsors = _.filter(sponsors, function(sponsor) {
           -   return sponsor.metadata.type === 'bronze';
-          - })
+          - });
 
           each sponsor in bronzeSponsors
             .small-12.columns.sponsor
