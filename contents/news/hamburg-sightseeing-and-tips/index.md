@@ -1,6 +1,6 @@
 ---
 title: Tips and Suggestions for your trip to Hamburg
-date: 2014-02-11
+date: 2014-03-10
 template: article.jade
 ---
 
