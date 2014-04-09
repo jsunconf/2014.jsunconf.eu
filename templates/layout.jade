@@ -105,7 +105,7 @@ html(lang='en')
           .sponsor-list
             h3.sponsor-list__title Bronze Sponsors
             each sponsor in bronzeSponsors
-              .small-6.large-4.columns.sponsor.text-center
+              .small-6.large-6.columns.sponsor.text-center
                 a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
                   img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
 
@@ -118,7 +118,7 @@ html(lang='en')
           .sponsor-list
             h3.sponsor-list__title Supporters
             each sponsor in supporters
-              .small-6.large-4.columns.sponsor.text-center
+              .small-6.large-6.columns.sponsor.text-center
                 a.sponsor__link(href=sponsor.metadata.link, title=sponsor.metadata.name, target='_blank')
                   img.sponsor__logo(src= sponsor.url + 'logo.png', alt=sponsor.metadata.name)
 
