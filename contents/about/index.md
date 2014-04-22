@@ -58,4 +58,18 @@ Unconf means unconference. There is no schedule or speaker list in advance. Ever
       </figcaption>
     </figure>
   </div>
+  <div class="small-6 columns">
+    <figure class="about__image">
+      <a href="http://www.coolscreen.de" target="_blank">
+        <img src="/images/ekke.jpg"
+          title="coolscreen.de - eZ Publish 5 and Symfony 2 specialists"
+          width="305" height="305">
+      </a>
+      <figcaption>
+        <a href="http://www.coolscreen.de" target="_blank">
+          Ekkehard Dörre
+        </a>
+      </figcaption>
+    </figure>
+  </div>
 </div>
