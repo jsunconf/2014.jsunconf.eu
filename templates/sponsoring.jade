@@ -11,19 +11,6 @@ block content
         header
           h1!= page.title
 
-        h3.subheader Are you interested in sponsoring the JavaScript Unconference? We are still looking for sponsors!
-
-        .sponsoring
-          a(href="/downloads/JSUnconfSponsoranschreibenENHH2014.pdf", onclick="ga('send', 'event', 'download', 'click', 'english');") Sponsorship flyer (english)
-          br
-          a(href="/downloads/JSUnconfSponsoranschreibenDEHH2014.pdf", onclick="ga('send', 'event', 'download', 'click', 'german');") Sponsorship flyer (german)
-          br
-          .email
-            a(href="mailto:contact@jsunconf.eu") contact@jsunconf.eu
-
-        br
-        br
-
         h3.subheader The JavaScript Unconference would not be possible without the kind support of these companies:
 
         - var sponsors = _.chain(contents.sponsoring._.directories).map(function(item) {
