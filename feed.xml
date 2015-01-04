@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JS Unconf 2014</title>
+    <atom:link href="http://2014.jsunconf.eu/feed.xml" rel="self" type="application/rss+xml"></atom:link>
+    <link>http://2014.jsunconf.eu</link>
+    <description>JavaScript Unconference 2014 in Hamburg. It's your conference. You decide what will happen.</description>
+    <pubDate>Sun, 04 Jan 2015 01:00:00 +0100</pubDate>
+    <language>en</language>
+    <item>
+      <title>JS Unconf 2015</title>
+      <link>http://2014.jsunconf.eu/news/jsunconf-2015/</link>
+      <pubDate>Sun, 04 Jan 2015 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://2014.jsunconf.eu/news/jsunconf-2015/</guid>
+      <author></author>
+      <description>&lt;p&gt;In case you missed it: After the success of the first JS Unconf, there will be a second one this year!&lt;/p&gt;
+&lt;p&gt;So check out &lt;a href=&quot;http://2015.jsunconf.eu/&quot;&gt;2015.jsunconf.eu&lt;/a&gt; and &lt;strong&gt;update your RSS&lt;/strong&gt; reader!&lt;/p&gt;
+&lt;p&gt;It will take place at the last weekend in April (25 &amp;amp; 26nd it is) in Hamburg. This time the location will be the &lt;em&gt;Institut für organische Chemie&lt;/em&gt; at the &lt;em&gt;Universität Hamburg&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.amiando.com/jsunconf2015.html&quot;&gt;Tickets are already available&lt;/a&gt; and you should make sure to &lt;strong&gt;grab yours soon&lt;/strong&gt;! We added credit cards as accepted payment, so there are no excuses!&lt;/p&gt;
+&lt;p&gt;We hope to see you in April!&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>JS Unconf 2014 Transparency Report</title>
+      <link>http://2014.jsunconf.eu/news/js-unconf-transparency-report/</link>
+      <pubDate>Fri, 11 Jul 2014 02:00:00 +0200</pubDate>
+      <guid isPermaLink="true">http://2014.jsunconf.eu/news/js-unconf-transparency-report/</guid>
+      <author></author>
+      <description>&lt;p&gt;The goal of the JS Unconf Team is to create an environment where
+everybody can learn about JavaScript and Software Development.
+We are doing this event for the community and not for any profit.&lt;/p&gt;
+&lt;p&gt;But let’s see the numbers!&lt;/p&gt;
+&lt;h3 id=&quot;who-financed-the-event&quot;&gt;Who financed the event&lt;/h3&gt;
+&lt;div class=&quot;blog-img text-center&quot;&gt;
+  &lt;img src=&quot;/news/js-unconf-transparency-report/who-financed-the-event.png&quot; alt=&quot;&quot;&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;this-is-how-we-spent-our-money-in-2014&quot;&gt;This is how we spent our money in 2014&lt;/h3&gt;
+&lt;div class=&quot;blog-img text-center&quot;&gt;
+&lt;img src=&quot;/news/js-unconf-transparency-report/how-we-spent-the-money.png&quot; alt=&quot;&quot;&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;js-unconf-is-a-non-profit-conference-made-for-the-community&quot;&gt;JS Unconf is a non-profit conference made for the community&lt;/h3&gt;
+&lt;div class=&quot;blog-img text-center&quot;&gt;
+&lt;img src=&quot;/news/js-unconf-transparency-report/we-are-non-profit.png&quot; alt=&quot;&quot;&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;we-have-a-lot-of-participants&quot;&gt;We have a lot of participants&lt;/h3&gt;
+&lt;div class=&quot;blog-img text-center&quot;&gt;
+&lt;img src=&quot;/news/js-unconf-transparency-report/tickets-participants.png&quot; alt=&quot;&quot;&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This post is inspired by the LXJS 2012 Transparency Report,
+The JS Conf EU “This is how we are spending
+your money” report and the “EmpireJS by the Numbers” blog post by
+Charlie Robbins.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Rough Unconference Schedule</title>
+      <link>http://2014.jsunconf.eu/news/times-and-latest-infos/</link>
+      <pubDate>Thu, 24 Apr 2014 02:00:00 +0200</pubDate>
+      <guid isPermaLink="true">http://2014.jsunconf.eu/news/times-and-latest-infos/</guid>
+      <author></author>
+      <description>&lt;p&gt;The JS Unconf will start each day at 9AM. Saturday evening will be an event in the Grüner Jäger with free drinks. All locations are described in our &lt;a href=&quot;http://2014.jsunconf.eu/location/&quot;&gt;location section&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;After the breakfast which starts at 9AM we will vote together which talks we want to see during the day. Shortly after the voting we should have &lt;a href=&quot;http://schedule.jsunconf.eu/&quot;&gt;http://schedule.jsunconf.eu/&lt;/a&gt; updated.&lt;/p&gt;
+&lt;p&gt;We will have four parallel tracks and each slot has 45 minutes. You can organize your talk as you wish, between presentation, demo, disussion, Q&amp;amp;A, etc.&lt;/p&gt;
+&lt;p&gt;Speakers can add the links to their slides to our wiki: &lt;a href=&quot;https://github.com/jsunconf/2014.jsunconf.eu/wiki&quot;&gt;https://github.com/jsunconf/2014.jsunconf.eu/wiki&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Between each slot there are breaks for drinking coffee and sharing experiences.&lt;/p&gt;
+&lt;p&gt;The Unconference ends on Sunday around 5PM.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>What is an Unconference?</title>
+      <link>http://2014.jsunconf.eu/news/what-is-an-unconference/</link>
+      <pubDate>Wed, 23 Apr 2014 02:00:00 +0200</pubDate>
+      <guid isPermaLink="true">http://2014.jsunconf.eu/news/what-is-an-unconference/</guid>
+      <author></author>
+      <description>&lt;p&gt;An Unconference is an event for and driven by the attendees. The audience actively participates in the unconference by proposing topics, holding presentations (if you like to) and by choosing which topics shall be presented. Only the most interesting ones are presented.&lt;/p&gt;
+&lt;h3 id=&quot;how-does-an-unconference-work-&quot;&gt;How does an Unconference work?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Each attendee can propose contributions, which can be talks, workshops, discussion ideas or happenings.&lt;/li&gt;
+&lt;li&gt;Everyone can claim an interest, which can be everything. Hopefully, someone will contribute something to that topic.&lt;/li&gt;
+&lt;li&gt;The porposed contributions are presented to the audience.&lt;/li&gt;
+&lt;li&gt;Everyone votes on the contributions.&lt;/li&gt;
+&lt;li&gt;According to the ranking of the topics, the speakers slots are arranged. The most famous talks won’t be held in parallel.&lt;/li&gt;
+&lt;li&gt;One talk lasts 45 minutes.&lt;/li&gt;
+&lt;li&gt;The coffee and lunch breaks are perfect for an intense knowledge exchange and discussions beside the slots.&lt;/li&gt;
+&lt;li&gt;If there is a deeper interest in one topic, it can be put on the proposal list for the next day / unconference.&lt;/li&gt;
+&lt;li&gt;A short summary of each talk / topic is presented in the closing session and published to the wiki.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;the-different-roles&quot;&gt;The different roles&lt;/h3&gt;
+&lt;p&gt;The role of the &lt;em&gt;attendees&lt;/em&gt; is to propose topics and to choose between them.&lt;/p&gt;
+&lt;p&gt;The role of the &lt;em&gt;organisation team&lt;/em&gt; is to create a suitable setting with an open space, coffee, food and WiFi connection.&lt;/p&gt;
+&lt;p&gt;The role of the &lt;em&gt;moderation team&lt;/em&gt; is to collect the proposed topics, to organise the voting and the arrangement of the speakers slots.&lt;/p&gt;
+&lt;h3 id=&quot;background&quot;&gt;Background&lt;/h3&gt;
+&lt;p&gt;An &lt;a href=&quot;http://en.wikipedia.org/wiki/Unconference&quot;&gt;unconference&lt;/a&gt; is based on &lt;a href=&quot;http://en.wikipedia.org/wiki/Open_Space_Technology&quot;&gt;the Open Space Technology&lt;/a&gt;, which allows the moderations of events with a huge number of members.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Friday Warmup Party</title>
+      <link>http://2014.jsunconf.eu/news/friday-warmup/</link>
+      <pubDate>Tue, 08 Apr 2014 02:00:00 +0200</pubDate>
+      <guid isPermaLink="true">http://2014.jsunconf.eu/news/friday-warmup/</guid>
+      <author></author>
+      <description>&lt;p&gt;We will have a small pre-party with free drinks together with the awesome
+ folks of the &lt;a href=&quot;http://www.meetup.com/hamburg-js/&quot;&gt;JavaScript Usergroup Hamburg (HH.js)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It is a 15min walk from U/S Sternschanze.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Important:&lt;/strong&gt; please RSVP at
+&lt;a href=&quot;http://www.meetup.com/hamburg-js/events/151538672/&quot;&gt;http://www.meetup.com/hamburg-js/events/151538672/&lt;/a&gt; so the bar owner knows how much staff is needed and nobody has to wait for their drinks.&lt;/p&gt;
+&lt;p&gt;Location:&lt;br/&gt;
+Max-Brauer-Allee 275 &amp;middot; 22769 Hamburg &amp;middot; &lt;a href=&quot;https://www.google.de/maps/place/Good+Old+Days+Dance+Bar/@53.563531,9.959284,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x2409f6f2f52cd803&quot;&gt;Map Good Old Days&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Tips and Suggestions for your trip to Hamburg</title>
+      <link>http://2014.jsunconf.eu/news/hamburg-sightseeing-and-tips/</link>
+      <pubDate>Mon, 10 Mar 2014 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://2014.jsunconf.eu/news/hamburg-sightseeing-and-tips/</guid>
+      <author></author>
+      <description>&lt;p&gt;First time visiting Hamburg? Having some days left before or after JS Unconf?&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://2014.jsunconf.eu/news/hamburg-sightseeing-and-tips/&quot;&gt;Read our tips and suggestions!&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;public-transportation&quot;&gt;Public Transportation&lt;/h2&gt;
+&lt;p&gt;The public transportation in Hamburg is done by the &lt;a href=&quot;http://www.hvv.de/en/index.php&quot;&gt;HVV&lt;/a&gt;. The important thing to know is that you &lt;strong&gt;need to buy a ticket before you go on the platform&lt;/strong&gt; and you don’t need to clock in the tickets, they are valid after you bought them. Don’t go behind the golden lines in the ground without a ticket! For busses you can buy your ticket at the driver.&lt;/p&gt;
+&lt;p&gt;A “Tagesticket” - a ticket that is valid the whole day and in large parts of Hamburg is the best option most of the time, even if you just take 2 rides. It costs around 7€.&lt;/p&gt;
+&lt;h2 id=&quot;sightseeing&quot;&gt;Sightseeing&lt;/h2&gt;
+&lt;p&gt;Hamburg has one of the busiest ports in europe (third after Antwerp and Rotterdam). At the subway station “Landungsbrücken” harbor tours are starting, where you will get some informations regarding the harbor while driving around with a small boat. Protip: There are also HVV ferrys starting there, which you can use with a “Tagesticket”. With one of these ferries you can also drive to the station “Övelgönne” - where you can take a walk at the small beach of the Elbe river.&lt;/p&gt;
+&lt;p&gt;On sunday morning, starting at 5 a.m., there is the famous Hamburger Fischmarkt, which is also a popular destination for people on their way back home after a party night, e.g. after visiting the bars and clubs of the famous Reeperbahn.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;http://en.wikipedia.org/wiki/Speicherstadt&quot;&gt;Speicherstadt&lt;/a&gt; is the old warehouse district of Hamburg. Even today the old warehouses are still used for goods like cocoa, coffee or carpets. But some of the buildings are hosting attractions for visitors, e.g. &lt;a href=&quot;http://en.wikipedia.org/wiki/Hamburg_Dungeon&quot;&gt;The Hamburg Dungeon&lt;/a&gt; and the &lt;a href=&quot;http://en.wikipedia.org/wiki/Miniatur_Wunderland&quot;&gt;Miniatur Wunderland&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Planten_un_Blomen&quot;&gt;Planten un Bloomen&lt;/a&gt; in the center of Hamburg near the subwaystation Dammtor is a nice park for having a rest in the sun. In the park there is also the tropical house of the University Hamburg, the entrance is free.&lt;/p&gt;
+&lt;p&gt;From the top of &lt;a href=&quot;http://en.wikipedia.org/wiki/St._Michael&amp;#39;s_Church,_Hamburg&quot;&gt;St. Michael’s Church&lt;/a&gt; you can see all parts of Hamburg. It costs some money to get up to the tower and currently the lift is not working so you have to take the stairs, but the sight is awesome.&lt;/p&gt;
+&lt;p&gt;Depending on how long you are staying in Hamburg, the &lt;a href=&quot;http://www.hamburg.de/hafengeburtstag-english/&quot;&gt;Harbor Birthday&lt;/a&gt; would be a fest you can vist, too.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Lightning talks at JS Unconf</title>
+      <link>http://2014.jsunconf.eu/news/lightning-talks/</link>
+      <pubDate>Sun, 02 Feb 2014 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://2014.jsunconf.eu/news/lightning-talks/</guid>
+      <author></author>
+      <description>&lt;p&gt;JS Unconf wouldn’t be JS Unconf without you! We asked on &lt;a href=&quot;https://twitter.com/jsunconf&quot;&gt;Twitter&lt;/a&gt; if we should introduce lightning talks and people were quite interested!
+The goal is to showcase projects and topics which do not fit in 45 minutes. Speakers get exactly 2*π minutes (6.17min) to present their project or topic, without slides.&lt;/p&gt;
+&lt;p&gt;All lightning talks are scheduled in the last session on Sunday. We will have a whiteboard for proposals. Just write your name &amp;amp; topic on it during the Saturday or Sunday. The Slots are limited: First come, first serve!&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Conference Outline and basics</title>
+      <link>http://2014.jsunconf.eu/news/conference-outline-and-basics/</link>
+      <pubDate>Wed, 22 Jan 2014 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://2014.jsunconf.eu/news/conference-outline-and-basics/</guid>
+      <author></author>
+      <description>&lt;p&gt;The JS Unconf will start on Saturday, the 26th of April at 9AM in the
+Geomatikum, Hamburg which is a three minute walk from the bus and subway
+station “Schlump”.&lt;/p&gt;
+&lt;p&gt;We will have four parallel tracks and each slot has 45 minutes.&lt;/p&gt;
+&lt;p&gt;If your talk gets voted, you can organize it as you wish, between
+presentation, demo, disussion, Q&amp;amp;A, etc.&lt;/p&gt;
+&lt;p&gt;Between each slot there is a 15min break and we will have one big lunch
+break each day.&lt;/p&gt;
+&lt;p&gt;There are still some tickets left on
+&lt;a href=&quot;https://tito.io/jsunconf/jsunconf2014&quot;&gt;https://tito.io/jsunconf/jsunconf2014&lt;/a&gt; and
+we are quite excited to see you all in April!&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Early Bird Tickets sold out – Regular on sale</title>
+      <link>http://2014.jsunconf.eu/news/early-bird-sold-out/</link>
+      <pubDate>Tue, 10 Dec 2013 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://2014.jsunconf.eu/news/early-bird-sold-out/</guid>
+      <author></author>
+      <description>&lt;p&gt;Wow, the Early Bird Tickets are all gone now!&lt;/p&gt;
+&lt;p&gt;But don’t worry, you can still get a ticket! The Regular Tickets are available now at a still very attractive price of 55€ (including VAT + Fee).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://tito.io/jsunconf/jsunconf2014&quot; class=&quot;button&quot;&gt;
+Grab yours now!
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Please note that the tickets are non-returnable.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Early Bird Tickets on sale now</title>
+      <link>http://2014.jsunconf.eu/news/early-bird-start/</link>
+      <pubDate>Sun, 01 Dec 2013 01:00:00 +0100</pubDate>
+      <guid isPermaLink="true">http://2014.jsunconf.eu/news/early-bird-start/</guid>
+      <author></author>
+      <description>&lt;p&gt;The early bird sale is now on. Save some money and be part of the first JavaScript Unconference ever.
+Tickets are priced at 42€ (34.02€ + VAT + Fee).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://tito.io/jsunconf/jsunconf2014&quot; class=&quot;button&quot;&gt;
+Grab yours now!
+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Please note that the tickets are non-returnable and that there is a limit of one ticket per order.&lt;/p&gt;
+</description>
+    </item>
+  </channel>
+</rss>
