@@ -5,7 +5,7 @@
   "dependencies": {
     "moment": "2.x",
     "typogr": "0.5.x",
-    "lodash": "~1.3.1",
+    "lodash": "~4.17.16",
     "wintersmith-sass": "~0.2.1",
     "wintersmith-snockets": "~0.1.0"
   },
